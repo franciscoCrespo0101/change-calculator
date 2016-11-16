@@ -1,0 +1,8 @@
+body {
+    background: url("money.jpg") fixed center;
+}
+
+#container {
+	background-color: rgba(0,0,0, 0.3);
+	color: grey;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Change calculator!!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div id="container" class="container">
+        <h2>Computers helping bipeds do math stuff</h2>
+        <p>Please input customers total due as well as amount tendered.</p>
+        <form id="myForm" class="form-inline">
+            <div class="form-group">
+                <label for="total">Total Due:</label>
+                <input type="total" class="form-control" id="total" placeholder="All your moneys">
+            </div>
+            <div class="form-group">
+                <label for="tendered">Tendered:</label>
+                <input type="tendered" class="form-control" id="tender" placeholder="Are belong to us">
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox">Found Everything they were looking for?
+                </label>
+                <button type="submit">Make change</button>
+            </div>
+        </form>
+        <div class="panel">
+            <div class="panel-heading"><strong>Change Owed</strong></div>
+            
+                <p id="output"></p>
+            
+        </div>
+    </div>
+    <div id="container" class="container">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Coins</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Quarters</td>
+                    <td id="quarters"></td>
+                </tr>
+                <tr>
+                    <td>Dimes</td>
+                    <td id="dimes"></td>
+                </tr>
+                <tr>
+                    <td>Nickles</td>
+                    <td id="nickles"></td>
+                </tr>
+                <tr>
+                    <td>Pennies</td>
+                    <td id="pennies"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="container" class="container">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Bills</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ones</td>
+                    <td id="ones"></td>
+                </tr>
+                <tr>
+                    <td>Fives</td>
+                    <td id="fives"></td>
+                </tr>
+                <tr>
+                    <td>Tens</td>
+                    <td id="tens"></td>
+                </tr>
+                <tr>
+                    <td>Twenties</td>
+                    <td id="twenties"></td>
+                </tr>
+                <tr>
+                    <td>Fifties</td>
+                    <td id="fifties"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
