@@ -29,6 +29,7 @@ form.onsubmit = function() {
         { fives: 5 },
         { ones: 1 }
     ]
+    
 
     for (var i = 0; i < dollars.length; i++) {
         var currentDollar = dollars[i]; // { fifties: 50 }
